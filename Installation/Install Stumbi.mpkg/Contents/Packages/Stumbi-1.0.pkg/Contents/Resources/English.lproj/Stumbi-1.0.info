@@ -1,0 +1,17 @@
+Title Stumbi
+Version 
+Description 
+DefaultLocation /Library/Application Support/SIMBL/Plugins/
+DeleteWarning 
+
+### Package Flags
+
+NeedsAuthorization YES
+Required NO
+Relocatable NO
+RequiresReboot NO
+UseUserMask NO
+OverwritePermissions NO
+InstallFat NO
+RootVolumeOnly NO
+OnlyUpdateInstalledLanguages NO

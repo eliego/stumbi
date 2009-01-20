@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Stumbi' target in the 'Stumbi' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

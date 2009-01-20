@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03043C9A0D69C87600CC24F2 /* SettingsWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 03043C990D69C87500CC24F2 /* SettingsWindow.nib */; };
+		03077DE20E249745009D46AF /* thumbdown_alt.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03077DDD0E249745009D46AF /* thumbdown_alt.gif */; };
+		03077DE30E249745009D46AF /* thumbdown.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03077DDE0E249745009D46AF /* thumbdown.gif */; };
+		03077DE40E249745009D46AF /* thumbup_alt.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03077DDF0E249745009D46AF /* thumbup_alt.gif */; };
+		03077DE50E249745009D46AF /* thumbup.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03077DE00E249745009D46AF /* thumbup.gif */; };
+		03077EA50E24A2BF009D46AF /* StumbiStumbleSegmentedControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03077EA30E24A2BF009D46AF /* StumbiStumbleSegmentedControl.h */; };
+		03077EA60E24A2BF009D46AF /* StumbiStumbleSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 03077EA40E24A2BF009D46AF /* StumbiStumbleSegmentedControl.m */; };
+		03077EBE0E24A3E1009D46AF /* stumbleit_alt.gif in Resources */ = {isa = PBXBuildFile; fileRef = 03077EBC0E24A3E1009D46AF /* stumbleit_alt.gif */; };
+		03077EBF0E24A3E1009D46AF /* stumbleit.png in Resources */ = {isa = PBXBuildFile; fileRef = 03077EBD0E24A3E1009D46AF /* stumbleit.png */; };
+		031E814B0D9FD4C1005F4E8A /* JSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031E814A0D9FD4C1005F4E8A /* JSON.framework */; };
+		031E81820D9FD50B005F4E8A /* JSON.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 031E814A0D9FD4C1005F4E8A /* JSON.framework */; };
+		032AE0E40E0458C70046543E /* KDKInteractiveSegmentedControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 032AE0E20E0458C70046543E /* KDKInteractiveSegmentedControl.h */; };
+		032AE0E50E0458C70046543E /* KDKInteractiveSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 032AE0E30E0458C70046543E /* KDKInteractiveSegmentedControl.m */; };
+		032DC8450D69AC3A00FB69F4 /* StumbiSettingsWindowController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 032DC8430D69AC3A00FB69F4 /* StumbiSettingsWindowController.h */; };
+		032DC8460D69AC3A00FB69F4 /* StumbiSettingsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DC8440D69AC3A00FB69F4 /* StumbiSettingsWindowController.m */; };
+		0334AC250E05C312007BDEAB /* StumbiVoteSegmentedControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0334AC230E05C312007BDEAB /* StumbiVoteSegmentedControl.h */; };
+		0334AC260E05C312007BDEAB /* StumbiVoteSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0334AC240E05C312007BDEAB /* StumbiVoteSegmentedControl.m */; };
+		0351C8FC0D5285120025FCC5 /* StumbiMain.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0351C8FA0D5285120025FCC5 /* StumbiMain.nib */; };
+		0351C9020D52853B0025FCC5 /* Connection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0351C9010D52853B0025FCC5 /* Connection.framework */; };
+		0351C9090D5285C90025FCC5 /* Connection.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0351C9010D52853B0025FCC5 /* Connection.framework */; };
+		0358DDE60E851B6F002271A3 /* CKHTTPResponseKDKCookieFix.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0358DDE40E851B6F002271A3 /* CKHTTPResponseKDKCookieFix.h */; };
+		0358DDE70E851B6F002271A3 /* CKHTTPResponseKDKCookieFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 0358DDE50E851B6F002271A3 /* CKHTTPResponseKDKCookieFix.m */; };
+		037614710DF1692500E031E2 /* URLExtension.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0376146F0DF1692500E031E2 /* URLExtension.h */; };
+		037614720DF1692500E031E2 /* URLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 037614700DF1692500E031E2 /* URLExtension.m */; };
+		037F3D970DA5339D00E897BB /* KDKStumble.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 037F3D950DA5339D00E897BB /* KDKStumble.h */; };
+		037F3D980DA5339D00E897BB /* KDKStumble.m in Sources */ = {isa = PBXBuildFile; fileRef = 037F3D960DA5339D00E897BB /* KDKStumble.m */; };
+		038728090E710C40000E6267 /* KDKLinkTextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 038728070E710C40000E6267 /* KDKLinkTextField.h */; };
+		0387280A0E710C40000E6267 /* KDKLinkTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 038728080E710C40000E6267 /* KDKLinkTextField.m */; };
+		0391179D0D5284DB007C2F26 /* Stumbi.m in Sources */ = {isa = PBXBuildFile; fileRef = 0391179A0D5284DB007C2F26 /* Stumbi.m */; };
+		0391179E0D5284DB007C2F26 /* KDKStumbleUponWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0391179C0D5284DB007C2F26 /* KDKStumbleUponWrapper.m */; };
+		03AFEC060DA6AFB900984A40 /* StumbiNewURLWindowController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03AFEC040DA6AFB900984A40 /* StumbiNewURLWindowController.h */; };
+		03AFEC070DA6AFB900984A40 /* StumbiNewURLWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AFEC050DA6AFB900984A40 /* StumbiNewURLWindowController.m */; };
+		03AFEC270DA6B22000984A40 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AFEC260DA6B22000984A40 /* WebKit.framework */; };
+		03AFEC2D0DA6B2CE00984A40 /* NewURLWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 03AFEC2C0DA6B2CE00984A40 /* NewURLWindow.nib */; };
+		03DAB3520DA3C8B1006ACED1 /* KDKToolbarDelegateWrapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03DAB3500DA3C8B1006ACED1 /* KDKToolbarDelegateWrapper.h */; };
+		03DAB3530DA3C8B1006ACED1 /* KDKToolbarDelegateWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DAB3510DA3C8B1006ACED1 /* KDKToolbarDelegateWrapper.m */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0332E4840E589EFC009BC2FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0351C9050D52855D0025FCC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				031E81820D9FD50B005F4E8A /* JSON.framework in CopyFiles */,
+				0351C9090D5285C90025FCC5 /* Connection.framework in CopyFiles */,
+				032DC8450D69AC3A00FB69F4 /* StumbiSettingsWindowController.h in CopyFiles */,
+				03DAB3520DA3C8B1006ACED1 /* KDKToolbarDelegateWrapper.h in CopyFiles */,
+				037F3D970DA5339D00E897BB /* KDKStumble.h in CopyFiles */,
+				03AFEC060DA6AFB900984A40 /* StumbiNewURLWindowController.h in CopyFiles */,
+				037614710DF1692500E031E2 /* URLExtension.h in CopyFiles */,
+				032AE0E40E0458C70046543E /* KDKInteractiveSegmentedControl.h in CopyFiles */,
+				0334AC250E05C312007BDEAB /* StumbiVoteSegmentedControl.h in CopyFiles */,
+				03077EA50E24A2BF009D46AF /* StumbiStumbleSegmentedControl.h in CopyFiles */,
+				038728090E710C40000E6267 /* KDKLinkTextField.h in CopyFiles */,
+				0358DDE60E851B6F002271A3 /* CKHTTPResponseKDKCookieFix.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03043C990D69C87500CC24F2 /* SettingsWindow.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = SettingsWindow.nib; sourceTree = "<group>"; };
+		03077DDD0E249745009D46AF /* thumbdown_alt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = thumbdown_alt.gif; sourceTree = "<group>"; };
+		03077DDE0E249745009D46AF /* thumbdown.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = thumbdown.gif; sourceTree = "<group>"; };
+		03077DDF0E249745009D46AF /* thumbup_alt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = thumbup_alt.gif; sourceTree = "<group>"; };
+		03077DE00E249745009D46AF /* thumbup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = thumbup.gif; sourceTree = "<group>"; };
+		03077EA30E24A2BF009D46AF /* StumbiStumbleSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StumbiStumbleSegmentedControl.h; sourceTree = "<group>"; };
+		03077EA40E24A2BF009D46AF /* StumbiStumbleSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StumbiStumbleSegmentedControl.m; sourceTree = "<group>"; };
+		03077EBC0E24A3E1009D46AF /* stumbleit_alt.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = stumbleit_alt.gif; sourceTree = "<group>"; };
+		03077EBD0E24A3E1009D46AF /* stumbleit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stumbleit.png; sourceTree = "<group>"; };
+		031E814A0D9FD4C1005F4E8A /* JSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSON.framework; path = ../../../JSON.framework; sourceTree = SOURCE_ROOT; };
+		032AE0E20E0458C70046543E /* KDKInteractiveSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDKInteractiveSegmentedControl.h; sourceTree = "<group>"; };
+		032AE0E30E0458C70046543E /* KDKInteractiveSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDKInteractiveSegmentedControl.m; sourceTree = "<group>"; };
+		032DC8430D69AC3A00FB69F4 /* StumbiSettingsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StumbiSettingsWindowController.h; sourceTree = "<group>"; };
+		032DC8440D69AC3A00FB69F4 /* StumbiSettingsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StumbiSettingsWindowController.m; sourceTree = "<group>"; };
+		0334AC230E05C312007BDEAB /* StumbiVoteSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StumbiVoteSegmentedControl.h; sourceTree = "<group>"; };
+		0334AC240E05C312007BDEAB /* StumbiVoteSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StumbiVoteSegmentedControl.m; sourceTree = "<group>"; };
+		0351C8F90D5285120025FCC5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0351C8FA0D5285120025FCC5 /* StumbiMain.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = StumbiMain.nib; sourceTree = "<group>"; };
+		0351C9010D52853B0025FCC5 /* Connection.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Connection.framework; path = ../../../ConnectionKit/build/Release/Connection.framework; sourceTree = SOURCE_ROOT; };
+		0358DDE40E851B6F002271A3 /* CKHTTPResponseKDKCookieFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKHTTPResponseKDKCookieFix.h; sourceTree = "<group>"; };
+		0358DDE50E851B6F002271A3 /* CKHTTPResponseKDKCookieFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKHTTPResponseKDKCookieFix.m; sourceTree = "<group>"; };
+		0376146F0DF1692500E031E2 /* URLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLExtension.h; sourceTree = "<group>"; };
+		037614700DF1692500E031E2 /* URLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLExtension.m; sourceTree = "<group>"; };
+		037F3D950DA5339D00E897BB /* KDKStumble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDKStumble.h; sourceTree = "<group>"; };
+		037F3D960DA5339D00E897BB /* KDKStumble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDKStumble.m; sourceTree = "<group>"; };
+		038728070E710C40000E6267 /* KDKLinkTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDKLinkTextField.h; sourceTree = "<group>"; };
+		038728080E710C40000E6267 /* KDKLinkTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDKLinkTextField.m; sourceTree = "<group>"; };
+		039117990D5284DB007C2F26 /* Stumbi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Stumbi.h; sourceTree = "<group>"; };
+		0391179A0D5284DB007C2F26 /* Stumbi.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Stumbi.m; sourceTree = "<group>"; };
+		0391179B0D5284DB007C2F26 /* KDKStumbleUponWrapper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = KDKStumbleUponWrapper.h; sourceTree = "<group>"; };
+		0391179C0D5284DB007C2F26 /* KDKStumbleUponWrapper.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = KDKStumbleUponWrapper.m; sourceTree = "<group>"; };
+		03AFEC040DA6AFB900984A40 /* StumbiNewURLWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StumbiNewURLWindowController.h; sourceTree = "<group>"; };
+		03AFEC050DA6AFB900984A40 /* StumbiNewURLWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StumbiNewURLWindowController.m; sourceTree = "<group>"; };
+		03AFEC260DA6B22000984A40 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		03AFEC2C0DA6B2CE00984A40 /* NewURLWindow.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = NewURLWindow.nib; sourceTree = "<group>"; };
+		03DAB3500DA3C8B1006ACED1 /* KDKToolbarDelegateWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDKToolbarDelegateWrapper.h; sourceTree = "<group>"; };
+		03DAB3510DA3C8B1006ACED1 /* KDKToolbarDelegateWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDKToolbarDelegateWrapper.m; sourceTree = "<group>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* Stumbi_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stumbi_Prefix.pch; sourceTree = "<group>"; };
+		3B5EEC660F23C9460007E305 /* Stumbi.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Stumbi.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				0351C9020D52853B0025FCC5 /* Connection.framework in Frameworks */,
+				031E814B0D9FD4C1005F4E8A /* JSON.framework in Frameworks */,
+				03AFEC270DA6B22000984A40 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Stumbi */ = {
+			isa = PBXGroup;
+			children = (
+				031E814A0D9FD4C1005F4E8A /* JSON.framework */,
+				0351C9010D52853B0025FCC5 /* Connection.framework */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = Stumbi;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				03AFEC260DA6B22000984A40 /* WebKit.framework */,
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03077EBC0E24A3E1009D46AF /* stumbleit_alt.gif */,
+				03077EBD0E24A3E1009D46AF /* stumbleit.png */,
+				03077DDD0E249745009D46AF /* thumbdown_alt.gif */,
+				03077DDE0E249745009D46AF /* thumbdown.gif */,
+				03077DDF0E249745009D46AF /* thumbup_alt.gif */,
+				03077DE00E249745009D46AF /* thumbup.gif */,
+				03AFEC2C0DA6B2CE00984A40 /* NewURLWindow.nib */,
+				0351C8F90D5285120025FCC5 /* Info.plist */,
+				0351C8FA0D5285120025FCC5 /* StumbiMain.nib */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				03043C990D69C87500CC24F2 /* SettingsWindow.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03077EA30E24A2BF009D46AF /* StumbiStumbleSegmentedControl.h */,
+				03077EA40E24A2BF009D46AF /* StumbiStumbleSegmentedControl.m */,
+				039117990D5284DB007C2F26 /* Stumbi.h */,
+				0391179A0D5284DB007C2F26 /* Stumbi.m */,
+				0391179B0D5284DB007C2F26 /* KDKStumbleUponWrapper.h */,
+				0391179C0D5284DB007C2F26 /* KDKStumbleUponWrapper.m */,
+				032DC8430D69AC3A00FB69F4 /* StumbiSettingsWindowController.h */,
+				032DC8440D69AC3A00FB69F4 /* StumbiSettingsWindowController.m */,
+				03DAB3500DA3C8B1006ACED1 /* KDKToolbarDelegateWrapper.h */,
+				03DAB3510DA3C8B1006ACED1 /* KDKToolbarDelegateWrapper.m */,
+				037F3D950DA5339D00E897BB /* KDKStumble.h */,
+				037F3D960DA5339D00E897BB /* KDKStumble.m */,
+				03AFEC040DA6AFB900984A40 /* StumbiNewURLWindowController.h */,
+				03AFEC050DA6AFB900984A40 /* StumbiNewURLWindowController.m */,
+				0376146F0DF1692500E031E2 /* URLExtension.h */,
+				037614700DF1692500E031E2 /* URLExtension.m */,
+				032AE0E20E0458C70046543E /* KDKInteractiveSegmentedControl.h */,
+				032AE0E30E0458C70046543E /* KDKInteractiveSegmentedControl.m */,
+				0334AC230E05C312007BDEAB /* StumbiVoteSegmentedControl.h */,
+				0334AC240E05C312007BDEAB /* StumbiVoteSegmentedControl.m */,
+				038728070E710C40000E6267 /* KDKLinkTextField.h */,
+				038728080E710C40000E6267 /* KDKLinkTextField.m */,
+				0358DDE40E851B6F002271A3 /* CKHTTPResponseKDKCookieFix.h */,
+				0358DDE50E851B6F002271A3 /* CKHTTPResponseKDKCookieFix.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B5EEC660F23C9460007E305 /* Stumbi.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* Stumbi_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* Stumbi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Stumbi" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				0351C9050D52855D0025FCC5 /* CopyFiles */,
+				0332E4840E589EFC009BC2FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stumbi;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = Stumbi;
+			productReference = 3B5EEC660F23C9460007E305 /* Stumbi.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Stumbi" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* Stumbi */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* Stumbi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				0351C8FC0D5285120025FCC5 /* StumbiMain.nib in Resources */,
+				03043C9A0D69C87600CC24F2 /* SettingsWindow.nib in Resources */,
+				03AFEC2D0DA6B2CE00984A40 /* NewURLWindow.nib in Resources */,
+				03077DE20E249745009D46AF /* thumbdown_alt.gif in Resources */,
+				03077DE30E249745009D46AF /* thumbdown.gif in Resources */,
+				03077DE40E249745009D46AF /* thumbup_alt.gif in Resources */,
+				03077DE50E249745009D46AF /* thumbup.gif in Resources */,
+				03077EBE0E24A3E1009D46AF /* stumbleit_alt.gif in Resources */,
+				03077EBF0E24A3E1009D46AF /* stumbleit.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0391179D0D5284DB007C2F26 /* Stumbi.m in Sources */,
+				0391179E0D5284DB007C2F26 /* KDKStumbleUponWrapper.m in Sources */,
+				032DC8460D69AC3A00FB69F4 /* StumbiSettingsWindowController.m in Sources */,
+				03DAB3530DA3C8B1006ACED1 /* KDKToolbarDelegateWrapper.m in Sources */,
+				037F3D980DA5339D00E897BB /* KDKStumble.m in Sources */,
+				03AFEC070DA6AFB900984A40 /* StumbiNewURLWindowController.m in Sources */,
+				037614720DF1692500E031E2 /* URLExtension.m in Sources */,
+				032AE0E50E0458C70046543E /* KDKInteractiveSegmentedControl.m in Sources */,
+				0334AC260E05C312007BDEAB /* StumbiVoteSegmentedControl.m in Sources */,
+				03077EA60E24A2BF009D46AF /* StumbiStumbleSegmentedControl.m in Sources */,
+				0387280A0E710C40000E6267 /* KDKLinkTextField.m in Sources */,
+				0358DDE70E851B6F002271A3 /* CKHTTPResponseKDKCookieFix.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../ConnectionKit/build/Release",
+					"$(SRCROOT)/../../..",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Stumbi_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = Stumbi;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)/../../../ConnectionKit/build/Release",
+					"$(SRCROOT)/../../..",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Stumbi_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = Stumbi;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Stumbi;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Stumbi;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "Stumbi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "Stumbi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

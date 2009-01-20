@@ -1,0 +1,3 @@
+#!/bin/sh
+rm -rf ~/Library/Application\ Support/SIMBL/Plugins/Stumbi.bundle
+rm -rf /Library/Application\ Support/SIMBL/Plugins/Stumbi.bundle
