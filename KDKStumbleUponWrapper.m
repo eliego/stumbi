@@ -203,6 +203,8 @@ NSString* const KDKStumbleUponLoginFinishedNotification = @"KDKStumbleUponLoginF
 			[NSException raise:KDKAuthenticationException format:@"Incorrect username or password!"];
 		else if ([[response contentString] isEqualToString:@"ERROR MAINTENANCE"])
 			[NSException raise:KDKServerDownException format:@"StumbleUpon is down for maintenance at the moment. Please try again soon!"];
+		else if ([[response contentString] length] == 0)
+			[NSException raise:KDKAuthenticationException format:@"Incorrect username or password!"];
 		else {
 			// Which type of request did result in this response?
 			switch ( [(NSNumber*)[(NSDictionary*)[originatingRequest userInfo] objectForKey:KDK_SU_REQUEST_TYPE_KEY] intValue] ) {
